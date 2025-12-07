@@ -118,6 +118,13 @@ inline vec3 random_on_hemisphere(const vec3& normal) {
 		return -on_unit_sphere;
 }
 
+inline vec3 random_in_unit_sphere() {
+    while (true) {
+        auto p = vec3::random(-1,1);
+        if (p.length_squared() < 1) return p;
+    }
+}
+
 #endif
 
 
