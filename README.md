@@ -17,4 +17,4 @@ This project implements the physics of light transport—including reflection, r
 
 No external dependencies required. You just need a C++ compiler.
 
-
+![final-render](final.jpeg)
